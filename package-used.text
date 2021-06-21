@@ -1,0 +1,24 @@
+# commands
+
+npm init -y
+npm install body-parser 
+{
+    body parsing is a middleware
+    parse incoming request bodies in a middleware
+    before your handlers , available under the req.body property
+}
+
+npm install cors
+{
+    cors - cross - origin resourse sharing
+    is a mechanism that allows restricted resources on a web
+    page to be requested from another domain outside the domain 
+    from which the first resource was served
+}
+npm install express
+{
+    framework for creating request and routing
+}
+npm install nodemon 
+npm install mongoose 
+
