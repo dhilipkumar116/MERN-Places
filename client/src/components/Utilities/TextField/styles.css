@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primary :#e6e6e6;
+    --border-color : black;
+ }
+
+.wrapper{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.textField{
+    width: 100%;
+    background-color: var(--primary);
+    padding: 0.7em;
+    border-radius: 0.4em;
+    border:2px solid var(--border-color);
+    outline: none;
+}
+
+.placeHolder{
+    position: absolute;
+    background-color: var(--primary);
+    left: 9px;
+    top: 7px;
+    color: var(--border-color);
+    margin: 0;
+    padding: 0 4px;
+    transform-origin: top left;
+    transition: all 120ms ease-in-out;
+}
+
+
+/* + selects the first class(placeHolder) after textField class*/
+.textField:focus+.placeHolder,
+/* if placeholder is not shown , then custom text should be in top */
+.textField:not(:placeholder-shown) + .placeHolder{
+    color: var(--border-color);
+    top: -7px;
+    transform: scale(0.7);
+    font-weight: bold;
+}
+
+
+.textField-ta{
+    width: 100%;
+    resize: none;
+    background-color: var(--primary);
+    padding: 0.7em;
+    border: 2px solid var(--border-color);
+    border-radius: 0.4em;
+    outline: none;
+}
+.placeHolder-ta{
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    background-color: var(--primary);
+    color: var(--border-color);
+    margin: 0;
+    padding: 0 4px;
+    transform-origin: top left;
+    transition: all 120ms ease-in-out;
+}
+
+.textField-ta:focus+.placeHolder-ta,
+.textField-ta:not(:placeholder-shown)+.placeHolder-ta{
+    color: var(--border-color);
+    font-weight: bold;
+    top: -7px;
+    transform: scale(0.7);
+}
+

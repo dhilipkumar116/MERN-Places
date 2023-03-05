@@ -1,0 +1,17 @@
+#clinet
+
+
+npm install axios (to make request)
+npm install moment (to get current time)
+npm install react-file-base 64 (converts the img to string format)
+npm install redux
+npm install react-redux
+npm install redux-thunk (to do async operation using redux) 
+
+
+#issues 
+npm cache clean --force (if browser window keeps on loading)
+
+In package.json:
+"proxy" : "http://localhost:5000",
+(if there any cors related error -> "Access-Control-Allow-Origin")

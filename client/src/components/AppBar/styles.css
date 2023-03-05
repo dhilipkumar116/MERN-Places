@@ -1,0 +1,13 @@
+.AppBar {
+  margin-top: 2rem;
+  background-color: #e6e6e6;
+  text-align: center;
+  letter-spacing: 2px;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+}
+.AppBar h3 {
+  padding: 0.5rem;
+  margin: 0;
+  text-transform: uppercase;
+}

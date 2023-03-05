@@ -1,0 +1,23 @@
+
+.submit-btn,.clear-btn{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: wheat;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(0.98);
+}
+
+.submit-btn{
+    background-color: blue;
+}
+.clear-btn{
+    background-color: red;
+}
